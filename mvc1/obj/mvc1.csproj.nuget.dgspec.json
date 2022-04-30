@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/darknight/Documentos/GitHub/asp.net/mvc1/mvc1.csproj",
         "projectName": "mvc1",
         "projectPath": "/home/darknight/Documentos/GitHub/asp.net/mvc1/mvc1.csproj",
-        "packagesPath": "/home/darknight/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/darknight/Documentos/GitHub/asp.net/mvc1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/darknight/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
