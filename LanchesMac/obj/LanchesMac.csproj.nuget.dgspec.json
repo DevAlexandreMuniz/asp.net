@@ -37,6 +37,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "microsoft.entityframeworkCore.design": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "microsoft.entityframeworkCore.sqlserver": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "microsoft.entityframeworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
