@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/darknight/Documentos/GitHub/asp.net/LanchesMac/LanchesMac.csproj",
         "projectName": "LanchesMac",
         "projectPath": "/home/darknight/Documentos/GitHub/asp.net/LanchesMac/LanchesMac.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/darknight/.nuget/packages/",
         "outputPath": "/home/darknight/Documentos/GitHub/asp.net/LanchesMac/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/darknight/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -39,8 +39,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "microsoft.entityframeworkCore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.5, )"
             },
             "microsoft.entityframeworkCore.sqlserver": {
               "target": "Package",
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
