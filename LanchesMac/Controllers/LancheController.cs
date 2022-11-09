@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LanchesMac.Controllers;
 
-public class LanchesController : Controller
+public class LancheController : Controller
 {
     private readonly ILancheRepository _lancheRepository;
 
-    public LanchesController(ILancheRepository lancheRepository)
+    public LancheController(ILancheRepository lancheRepository)
     {
         _lancheRepository = lancheRepository;
     }
