@@ -1,6 +1,6 @@
-﻿using LanchesMac.Context;
+﻿using LanchesMac.Repositories.Interfaces;
+using LanchesMac.Context;
 using LanchesMac.Models;
-using LanchesMac.Repositories.Interfaces;
 
 namespace LanchesMac.Repositories
 {

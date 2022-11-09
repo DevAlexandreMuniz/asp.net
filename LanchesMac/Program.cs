@@ -1,4 +1,3 @@
-
 namespace LanchesMac;
 public class Program
 {

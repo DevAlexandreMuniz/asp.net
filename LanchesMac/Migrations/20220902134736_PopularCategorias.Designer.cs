@@ -11,14 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LanchesMac.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20211122214758_PopularCategorias")]
+    [Migration("20220902134736_PopularCategorias")]
     partial class PopularCategorias
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.0")
+                .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -70,7 +70,7 @@ namespace LanchesMac.Migrations
                     b.Property<bool>("EmEstoque")
                         .HasColumnType("bit");
 
-                    b.Property<string>("ImagemThumbnailUrl")
+                    b.Property<string>("ImagemTumbnailUrl")
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
@@ -86,7 +86,7 @@ namespace LanchesMac.Migrations
                         .HasMaxLength(80)
                         .HasColumnType("nvarchar(80)");
 
-                    b.Property<decimal>("Preco")
+                    b.Property<decimal>("preco")
                         .HasColumnType("decimal(10,2)");
 
                     b.HasKey("LancheId");
