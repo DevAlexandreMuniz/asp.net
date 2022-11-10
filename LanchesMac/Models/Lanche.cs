@@ -38,7 +38,7 @@ public class Lanche
 
     [Display(Name = "Caminho Imagem Miniatura")]
     [StringLength(200, ErrorMessage = "O {0} deve ter no máximo {1} caracteres")]
-    public string ImagemTumbnailUrl { get; set; }
+    public string ImagemThumbnailUrl { get; set; }
 
     [Display(Name = "Preferido?")]
     public bool IsLanchePreferido { get; set; }

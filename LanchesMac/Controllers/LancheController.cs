@@ -14,6 +14,7 @@ public class LancheController : Controller
 
     public IActionResult List()
     {
+
         var lanches = _lancheRepository.Lanches;
         return View(lanches);
     }
