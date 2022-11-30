@@ -22,7 +22,7 @@ public class CarrinhoCompra
             services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
 
         //obtem um serviço do tipo do nosso contexto
-        var context = services.GetServices<AppDbContext>();
+        var context = services.GetService<AppDbContext>();
 
         //obtem ou gera o id do carrinho
         string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
